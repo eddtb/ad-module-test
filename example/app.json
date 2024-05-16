@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "expo-module-test-example",
+    "slug": "expo-module-test-example",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [["../app.plugin.js", { "google_ads_id" : "ca-app-pub-8580172702033882~4553815229" }]],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "expo.modules.moduletest.example", 
+      "infoPlist": {
+        "GADApplicationIdentifier": "ca-app-pub-8580172702033882~4553815229", 
+        "SKAdNetworkItems": [
+          { "SKAdNetworkIdentifier" : "cstr6suwn9.skadnetwork" }
+        ]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "expo.modules.moduletest.example"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

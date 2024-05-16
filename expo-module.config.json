@@ -1,0 +1,10 @@
+{
+  "platforms": ["ios", "android", "web"],
+  "ios": {
+    "modules": ["ExpoModuleTestModule"], 
+    "appDelegateSubscribers": ["GoogleAdsAppDelegateSubscriber"]
+  },
+  "android": {
+    "modules": ["expo.modules.moduletest.ExpoModuleTestModule"]
+  }
+}
